@@ -30,7 +30,7 @@ class ColoradoLottery
       # the key is the game.name & the value is an empty []
       if @registered_contestants[game.name].nil?
         # the line below is creating a new key-value pair:
-        @registered_contestants[game.name]= []
+        @registered_contestants[game.name] = []
       end
 
       # this says put contestant into the proper key/game
